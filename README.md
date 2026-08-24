@@ -89,11 +89,20 @@ clocked from a documented PL clock such as the CIPS `pl_clk0` output. It is not
 a replacement for the board-specific CIPS, NoC, LPDDR5, and clock setup. See
 [RTL integration](docs/rtl-integration.md).
 
+## Onboard examples
+
+[`examples/linux`](examples/linux) contains the Linux examples exercised on
+the physical board: platform inventory, alternating user LEDs, DIP switches,
+PCIe/NVMe status, an opt-in NVMe filesystem smoke test, and HDMI/media status.
+See the [examples guide](examples/README.md) for hardware requirements and
+safety boundaries.
+
 ## Repository map
 
 ```text
 constraints/              Board-specific D10/D8 pin constraints
 docs/                     Bring-up and RTL integration notes
+examples/linux/           Tested onboard Linux and PCIe examples
 rtl/                      Alpaca-owned synthesizable logic
 scripts/                  Windows JTAG and UART helpers
 vendor/iwave/README.md     Expected vendor artifact layout
