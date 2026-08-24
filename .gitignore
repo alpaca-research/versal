@@ -1,0 +1,36 @@
+# iWave deliverables and programming images are not redistributable here.
+vendor/iwave/**
+!vendor/iwave/README.md
+*.pdi
+*.xsa
+*.ltx
+*.bit
+*.bin
+
+# Vivado-generated projects and output.
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.xpr
+*.jou
+*.log
+*.str
+*.dmp
+*.wdb
+*.wcfg
+webtalk*.xml
+webtalk*.jou
+dfx_runtime.txt
+
+# Editor and operating-system files.
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
